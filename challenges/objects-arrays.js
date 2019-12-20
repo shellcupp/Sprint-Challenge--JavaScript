@@ -72,27 +72,49 @@ const graduates = [
   { id: 10, first_name: "Hube", university: "Universitat Rovira I Virgili Tarragona", email: "hlethbrig9@foxnews.com" },
 ];
 
-// const universities = [];
-// graduates.filter(university);
-//const universities = graduates.filter(Objects(graduates === university));
-
+//  const universities = [];
+// graduates.forEach(function(university){
+//   console.log(universities)
+// })
+const universities = [
+  'Missouri Southern State College',
+  'The School of the Art Institute of Chicago',
+  'Marian College',
+  'International Medical & Technological University',
+  'Sultan Salahuddin Abdul Aziz Shah Polytechnic',
+  'Fachhochschule Rosenheim, Hochschule für Technik und Wirtschaft',
+  'Salem University',
+  'Coastal Carolina University',
+  'Universidad Católica de Ávila',
+  'Universitat Rovira I Virgili Tarragona',
+]
 /* Request 1: Create a new array called universities that contains all the universities in the graduates array. This will be an array of strings.
 
 Once you have the new array created, sort the universities alphabetically and log the result. */
 
- //universities.sort();
- //colsole.log(universities);
+ universities.sort(),
+ console.log(universities);
 
 // }
-
+const contactInfo = [
+  'Cynde ctorry0@macromedia.com',
+  'Saundra swhal1@state.gov',
+  'Lambert lparham2@techcrunch.com',
+  'Modestine mdolder3@symantec.com',
+  'Chick camorts4@google.com.au',
+  'Jakob jharken5@spiegel.de',
+  'Robbi rbrister6@redcross.org',
+  'Colline cbrosh7@alibaba.com',
+  'Michail mrome8@shinystat.com',
+  'Hube hlethbrig9@foxnews.com',
+]
 /* Request 2: Create a new array called contactInfo that contains both first name and email of each student. This will be an array of strings.
 
 The resulting contact information strings should have a space between the first name and the email, like this: 
 "Josh josh@example.com"
 
 Log the result of your new array. */
-const contactInfo = [];
-console.log();
+console.log(contactInfo);
 
 /* Request 3: Find out how many universities have the string "Uni" included in their name. Create a new array called unisWithUni that contains them all. This will be an array of objects. Log the result. */
 const unisWithUni = [];
@@ -122,7 +144,12 @@ The zoos want to display both the scientific name and the animal name in front o
 
 */
 const displayNames = [];
+zooAnimals.forEach(function(item, index){
+  return zooAnimals.animal=== displayNames,
+  
+})
 console.log(displayNames);
+  
 
 /* Request 2: .map()
 
