@@ -28,15 +28,30 @@ Demonstrate your understanding of this week's concepts by answering the followin
 
 Edit this document to include your answers after each question. Make sure to leave a blank line above and below your answer so it is clear and easy to read by your team lead
 
-1. Describe the biggest difference between `.forEach` & `.map`.
+1.Describe the biggest difference between .forEach & .map.
 
-2. What is the difference between a function and a method?
+The most significant difference between .forEach and .map is that map returns a new array of elements while in turn passing each element back to the callback.
 
-3. What is closure?
+2.What is the difference between a function and a method?
 
-4. Describe the four rules of the 'this' keyword.
+A function is a set of derections we write for the computer, a method is a pre-written set of instructions for the computer to use that we can call with a key word. A fancy way to describe a property whose value is a function is a method.
 
-5. Why do we need super() in an extended class?
+A method is a function which is a property of an object. There are two kind of methods: Instance Methods which are built-in tasks performed by an object instance, or Static Methods which are tasks that are called directly on an object constructor.
+
+3.What is closure?
+
+When a function is declared and created, a new scope is also created. Any variables declared within that function’s scope will be enclosed in a lexical/private scope that belongs to that function. Also, it is important to remember that functions look outward for context. If some variable isn’t defined in a function’s scope, the function will look outside the scope chain and search for a variable being referenced in the outer scope. This is what closure is all about.
+
+4.Describe the four rules of the 'this' keyword.
+
+-Global Binding, when in the global scope, the value of "this" will be the window/console Object;
+-Implicict Binding, whenever a function is called by a precending dot, the object left of the dot gets 'this'.
+-New Binding, whenever a constructor function is used, this refers to the specific instance of the object that is created and returned by the constructor function
+-Ecplicit Binding, whenever JavaScript's call or apply method is used, this is explicitly defined. 
+
+5.Why do we need super() in an extended class?
+
+we need to use super() in an extended class for inheritance to work.
 
 ## Project Set up
 
