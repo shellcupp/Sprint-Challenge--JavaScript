@@ -9,8 +9,7 @@
 function consume(a, b, cb){
 this.a = a;
 this.b = b;
-this.cb = (ab)
-return cb;
+return cb(ab);
 }
 
 
