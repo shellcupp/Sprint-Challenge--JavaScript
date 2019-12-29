@@ -30,13 +30,11 @@ Edit this document to include your answers after each question. Make sure to lea
 
 1.Describe the biggest difference between .forEach & .map.
 
-The most significant difference between .forEach and .map is that map returns a new array of elements while in turn passing each element back to the callback.
+The important difference between them is that map accumulates all of the results into a collection, whereas foreach returns nothing. map is usually used when you want to transform a collection of elements with a function, whereas foreach simply executes an action for each element.
 
 2.What is the difference between a function and a method?
 
-A function is a set of derections we write for the computer, a method is a pre-written set of instructions for the computer to use that we can call with a key word. A fancy way to describe a property whose value is a function is a method.
-
-A method is a function which is a property of an object. There are two kind of methods: Instance Methods which are built-in tasks performed by an object instance, or Static Methods which are tasks that are called directly on an object constructor.
+The main difference between a function and a method. A function is defined outside of an object; A method is defined as the property of an object.
 
 3.What is closure?
 
@@ -51,7 +49,7 @@ When a function is declared and created, a new scope is also created. Any variab
 
 5.Why do we need super() in an extended class?
 
-we need to use super() in an extended class for inheritance to work.
+We need to use super() in an extended class for this keyword (inheritance) to work.
 
 ## Project Set up
 

@@ -7,8 +7,8 @@
   * The consume function should return the invocation of cb, passing a and b into cb as arguments
 */
 function consume(a, b, cb){
-return cb(a, b);
-}
+return cb(a, b)
+};
 
 
 /* Step 2: Create several functions to callback with consume();
@@ -16,17 +16,16 @@ return cb(a, b);
   * Create a function named multiply that returns the product of two numbers 
   * Create a function named greeting that accepts a first and last name and returns "Hello first-name last-name, nice to meet you!"
 */
-const add = (a, b) =>{
-  return a + b;
-}
-const multiply = (a, b) =>{
-  return a * b;
-}
-const greeting = (a, b) =>{
-  this.a = "first-name";
-  this.b = "last-name";
-  return `Hello ${"a"} ${"b"}, nice to meet you!`
-}
+const add = (a, b) => 
+   a + b;
+
+
+const multiply = (a, b) =>
+   a * b;
+
+
+const greeting = (firstName, lastName) => 
+   `Hello ${firstName} ${lastName}, nice to meet you!`
 
 
 /* Step 3: Check your work by un-commenting the following calls to consume(): */
