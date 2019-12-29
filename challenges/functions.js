@@ -25,7 +25,7 @@ const multiply = (a, b) =>{
 const greeting = (a, b) =>{
   this.a = "first-name";
   this.b = "last-name";
-  return `Hello ${"a"} ${"b"} nice to meet you!`
+  return `Hello ${"a"} ${"b"}, nice to meet you!`
 }
 
 
@@ -39,7 +39,7 @@ const greeting = (a, b) =>{
 
 // Explain in your own words why nestedfunction can access the variable internal.
 
-// Explanation: 
+// Explanation: The nestedfuntion can access the variable internal because they are inside og the myFunction scope. Any functions outside of myFunctions would not have access to the variable internal.
 
 
 const external = "I'm outside the function";
